@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+    /*box-sizing: border-box; */
+}
+#movil{
+    position: fixed;
+    width: 100%;
+}
+body{
+    background-color: rgb(25, 25, 112);
+}
+
+#menu{
+    
+    margin: 0px;
+    border: 3px solid black;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    background-color: #c9effc;
+
+}
+
+#banner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    background-color: rgb(0, 0, 0);
+    border: 3px solid black;
+    height: 25vh;
+    padding-top: 11vh;
+}
+
+#cuerpo{
+    background-color: rgb(105,105,105);
+    border: 3px solid black;
+    height: 150vh;
+}
+
+#pie{
+    background-color: #332f2c;
+    border: 1px solid black;
+    height: 25vh;
+}
+
+#imagenMenu{
+    height: 100%;
+    
+    
+}
+
+#barra{
+    width: 100%;
+    height: 4vh;
+    border: 2px solid gray;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.linksIngles{
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+    color:black;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+}
+
+.linksIngles:hover{
+    color: red;
+
+}
+
+.linksIngles:active{
+    color:blueviolet ;
+}
+
+.proximosEstrenos{
+    background-color: yellow;
+    border: 2px solid black;
+    max-height:7% ;
+    max-width:25% ;
+    margin-left: 20px;
+padding: 4px;
+display: flex;
+flex-direction: column-reverse;
+align-items: center;
+justify-content: center;
+box-shadow: 10px 10px 10px black;
+}
+
+@media screen and (max-width:900px) {
+    #cuartaFoto{
+        display: none;
+    }
+    #banner{
+    height: 27vh;
+}
+
+}
+.estrenos{
+display: flex;
+justify-content: space-around;
+}
+.peliculasCuerpo{
+    border: 2px solid black;
+    width: 13vw;
+    height: 40vh;
+    background-color: #c9effc;
+    box-shadow: 25px 25px 10px black;
+}
+
+
+.cuadrado{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 12px;
+}
+.rectangulos{
+    border: 2px solid black;
+    width: 100%;
+    height: 85%;
+    
+}
+
+#imagenUno{
+    background-image: url("../img/top_gun.jpg");
+    background-size: 100%;
+}
+
+#imagenDos{
+    background-image: url("../img/sonic2.jpg");
+    background-size: 100%;
+}
+#imagenTres{
+    background-image: url("../img/black_phone.jpg");
+    background-size: cover;
+
+}
+#imagenCuatro{
+    background-image: url("../img/jurassic.jpg");
+    background-size: 100%;
+}
+#imagenCinco{
+    background-image: url("../img/dr_strange.jpg");
+    background-size: 100%;
+}
+#imagenSeis{
+    background-image: url("../img/dog.jpg");
+    background-size: 100%;
+}
+
+#imagenSiete{
+    background-image: url("../img/bobEsponja.jpg");
+    background-size: 90%;
+}
+
+#imagenOcho{
+    background-image: url("../img/hielo.jpg");
+    background-size: 100%;
+}
+
+#imagenUno:hover{
+    background-image: url("../img/top_gun2.jpg");
+    background-size: 100%;
+}
+
+#imagenDos:hover{
+    background-image: url("../img/sonic3.jpg");
+    background-size: 100%;
+}
+#imagenTres:hover{
+    background-image: url("../img/black_phone2.jpg");
+    background-size: cover;
+
+}
+#imagenCuatro:hover{
+    background-image: url("../img/jurassic2.jpg");
+    background-size: 100%;
+}
+#imagenCinco:hover{
+    background-image: url("../img/dr_strange2.jpg");
+    background-size: 100%;
+}
+#imagenSeis:hover{
+    background-image: url("../img/dog2.jpg");
+    background-size: 140%;
+}
+
+#imagenSiete:hover{
+    background-image: url("../img/bobEsponja2.jpg");
+    background-size: 90%;
+}
+
+#imagenOcho:hover{
+    background-image: url("../img/hielo5.jpg");
+    background-size: 90% ;
+}
+
+
+#pie{
+
+display:flex;
+justify-content: space-between;
+
+
+}
+
+.elementosPie{
+width: 100%;
+height: 100%;
+
+
+}
+#contenedorNombre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#nombre{
+    position: relative;
+    top: 20px;
+    display: flex;
+    align-self: center;
+    font-size: 90px;
+ font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#datos{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: flex-end;
+    
+    padding-right: 4vw;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-top: 5px;
+}
+
+
+.redesSociales{
+    display: flex;
+    
+    height: 6vh;
+    width: 3vw ;
+    color: black;
+    font-size: 17px;
+    padding:5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#primerRed{
+    
+    height: 6vh;
+    width: 3vw ;
+}
+#segundaRed{
+    height: 6vh;
+    width: 7vh ;
+}
+
+#tercerRed{
+    height: 6vh;
+    width: 3vw ;
+}
+
+.palabras{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
