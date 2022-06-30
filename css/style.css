@@ -4,8 +4,8 @@
     /*box-sizing: border-box; */
 }
 #movil{
-    position: fixed;
-    width: 100%;
+position: fixed;
+width:100%;
 }
 body{
     background-color: rgb(25, 25, 112);
@@ -29,7 +29,7 @@ body{
     background-color: rgb(0, 0, 0);
     border: 3px solid black;
     height: 25vh;
-    padding-top: 11vh;
+    padding-top:11vh ;
 }
 
 #cuerpo{
@@ -110,7 +110,7 @@ display: flex;
 justify-content: space-around;
 }
 .peliculasCuerpo{
-    border: 2px solid black;
+    border: 5px outset black;
     width: 13vw;
     height: 40vh;
     background-color: #c9effc;
@@ -139,6 +139,7 @@ justify-content: space-around;
 #imagenUno{
     background-image: url("../img/top_gun.jpg");
     background-size: 100%;
+
 }
 
 #imagenDos{
@@ -176,6 +177,7 @@ justify-content: space-around;
 #imagenUno:hover{
     background-image: url("../img/top_gun2.jpg");
     background-size: 100%;
+    
 }
 
 #imagenDos:hover{
@@ -208,6 +210,13 @@ justify-content: space-around;
 #imagenOcho:hover{
     background-image: url("../img/hielo5.jpg");
     background-size: 90% ;
+}
+
+.peliculasCuerpo:hover{
+    box-shadow: none;
+    position: relative;
+    top: 25px;
+    left: 25px;
 }
 
 
