@@ -213,10 +213,15 @@ justify-content: space-around;
 }
 
 .peliculasCuerpo:hover{
-    box-shadow: none;
+    
     position: relative;
     top: 25px;
     left: 25px;
+    transition: all 0.4s;
+}
+.peliculasCuerpo:hover{
+    box-shadow: none;
+    transition: all 0.2s;
 }
 
 
