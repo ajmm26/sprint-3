@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&display=swap');
+
+
+
 *{
     margin: 0;
     padding: 0;
@@ -6,6 +10,7 @@
 #movil{
 position: fixed;
 width:100%;
+z-index: 5;
 }
 body{
     background-color: rgb(25, 25, 112);
@@ -28,7 +33,7 @@ body{
     flex-wrap: nowrap;
     background-color: rgb(0, 0, 0);
     border: 3px solid black;
-    height: 25vh;
+    height: 26vh;
     padding-top:11vh ;
 }
 
@@ -82,7 +87,7 @@ body{
     color:blueviolet ;
 }
 
-.proximosEstrenos{
+#proximosEstrenos{
     background-color: yellow;
     border: 2px solid black;
     max-height:7% ;
@@ -94,6 +99,10 @@ flex-direction: column-reverse;
 align-items: center;
 justify-content: center;
 box-shadow: 10px 10px 10px black;
+/*    */
+transform: translateX(60deg);
+transform: translateY(-20deg);
+animation-name:animacion; 
 }
 
 @media screen and (max-width:900px) {
@@ -115,6 +124,8 @@ justify-content: space-around;
     height: 40vh;
     background-color: #c9effc;
     box-shadow: 25px 25px 10px black;
+    overflow: hidden;
+    
 }
 
 
@@ -128,6 +139,8 @@ justify-content: space-around;
     color: black;
     font-family: Arial, Helvetica, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 12px;
+    overflow: hidden;
+    
 }
 .rectangulos{
     border: 2px solid black;
@@ -139,39 +152,69 @@ justify-content: space-around;
 #imagenUno{
     background-image: url("../img/top_gun.jpg");
     background-size: 100%;
-
+    overflow: hidden;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 #imagenDos{
     background-image: url("../img/sonic2.jpg");
     background-size: 100%;
+    overflow: hidden;
+    display: flex;
+justify-content: center;
+align-items: center;
 }
 #imagenTres{
     background-image: url("../img/black_phone.jpg");
     background-size: cover;
-
+    overflow: hidden;
+    display: flex;
+justify-content: center;
+align-items: center;
 }
 #imagenCuatro{
     background-image: url("../img/jurassic.jpg");
     background-size: 100%;
-}
+
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
 #imagenCinco{
     background-image: url("../img/dr_strange.jpg");
     background-size: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #imagenSeis{
     background-image: url("../img/dog.jpg");
     background-size: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #imagenSiete{
     background-image: url("../img/bobEsponja.jpg");
     background-size: 90%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #imagenOcho{
     background-image: url("../img/hielo.jpg");
     background-size: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #imagenUno:hover{
@@ -213,10 +256,8 @@ justify-content: space-around;
 }
 
 .peliculasCuerpo:hover{
+    transform: translate(25px, 25px);    
     
-    position: relative;
-    top: 25px;
-    left: 25px;
     transition: all 0.4s;
 }
 .peliculasCuerpo:hover{
@@ -294,4 +335,52 @@ height: 100%;
 .palabras{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
+}
+
+
+.fecha{
+    font-family: 'Mingzat';
+    font-size: 16px;
+}
+
+
+#completo{
+    overflow: hidden;
+}
+/*
+#proximosEstrenos{ 
+    
+   /* transform: rotate(-15deg);
+*/    
+
+  
+
+    /*
+    transform: skew(30deg, 20deg);
+    transform: scaleX(-1); */
+    
+/*}*/
+
+.dia{
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    opacity: 70%;
+    
+    border: 1px solid black;
+    background-color: white;
+    transform: translate(0px, 300px);
+}
+
+@keyframes animacion{
+0%{
+
+}
+
+100%{
+    transform: translateX(0deg);
+    transform: translateY(0deg);
+
+}
+
 }

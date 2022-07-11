@@ -7,7 +7,11 @@
     <link rel="stylesheet" href="css/style.css">
     <title>SomosCine</title>
 </head>
-<body>
+
+<body onload="principal()"> 
+
+        
+    
     <div id="completo">
             <header>
                      <!-- Menu-->
@@ -56,7 +60,7 @@
                      <!-- Peliclas y fechas-->                
                      <div id="cuerpo">
                             <br> <br> <br>
-                            <div class="proximosEstrenos">
+                            <div id="proximosEstrenos">
                                         <div class="palabras">
                                             <h2 >PROXIMOS ESTRENOS</h2>
 
@@ -70,25 +74,25 @@
 
 
                                         <div class="peliculasCuerpo">
-                                            <a class="cuadrado"href=""><div id="imagenUno" class="rectangulos"></div><p class="fecha">19:00-21:00-23:00</p></a>
+                                            <a class="cuadrado"href="https://www.imdb.com/title/tt1745960/?ref_=nv_sr_srsg_0"><div id="imagenUno" class="rectangulos"> <p id="dia1" class="dia">Martes: 17:00hs</p> </div><p class="fecha">TOP   GUN</p></a>
                                             
                                         </div>
 
 
                                         <div class="peliculasCuerpo">
-                                            <a class="cuadrado"href=""><div id="imagenDos" class="rectangulos"></div><p class="fecha">15:00-19:00-20:00</p></a>
+                                            <a class="cuadrado"href="https://www.imdb.com/title/tt12412888/?ref_=nv_sr_srsg_0"><div id="imagenDos" class="rectangulos"> <p  id="dia2" class="dia">Martes: 17:00hs</p> </div><p class="fecha">Sonic2</p></a>
 
                                         </div>
                                         
                                         
                                         <div class="peliculasCuerpo">
-                                            <a class="cuadrado"href=""><div id="imagenTres" class="rectangulos"></div><p class="fecha">14:00-16:00-23:00</p></a>
+                                            <a class="cuadrado"href="https://www.imdb.com/title/tt7144666/?ref_=fn_al_tt_1"><div id="imagenTres" class="rectangulos"> <p id="dia3" class="dia">Martes: 17:00hs</p> </div><p class="fecha">Black Phone</p></a>
 
                                         </div>
                                         
                                         
                                         <div class="peliculasCuerpo">
-                                            <a class="cuadrado"href=""><div id="imagenCuatro"class="rectangulos"></div><p class="fecha">19:00-21:00-23:00</p></a>
+                                            <a class="cuadrado"href="https://www.imdb.com/title/tt8041270/?ref_=ext_shr_lnk"><div id="imagenCuatro"class="rectangulos"> <p  id="dia4" class="dia">Martes: 17:00hs</p> </div><p class="fecha">Jurassic World</p></a>
 
                                         </div>
 
@@ -103,26 +107,26 @@
 
                                     <div class="peliculasCuerpo">
                                                 
-                                                    <a class="cuadrado"href=""><div id="imagenCinco" class="rectangulos"></div><p class="fecha">16:00-18:00-20:00</p></a>
+                                                    <a class="cuadrado"href="https://www.imdb.com/title/tt9419884/?ref_=nv_sr_srsg_6">  <div id="imagenCinco" class="rectangulos"><p id="dia5" class="dia">Martes: 17:00hs</p></div><p class="fecha">Dr. Strange</p></a>
                                                 
 
                                     </div>
 
 
                                     <div class="peliculasCuerpo">
-                                        <a class="cuadrado"href=""><div id="imagenSeis" class="rectangulos"></div><p class="fecha">19:00-20:00-22:00</p></a>
+                                        <a class="cuadrado"href="https://www.imdb.com/title/tt11252248/?ref_=nv_sr_srsg_0">  <div id="imagenSeis" class="rectangulos"><p id="dia6" class="dia">Martes: 17:00hs</p></div><p class="fecha">Dog: Un viaje salvaje</p></a>
 
                                     </div>
                                     
                                     
                                     <div class="peliculasCuerpo">
-                                        <a class="cuadrado"href=""><div id="imagenSiete" class="rectangulos"></div><p class="fecha">19:00-21:00-23:00</p></a>
+                                        <a class="cuadrado"href="https://www.imdb.com/title/tt2279373/"> <div id="imagenSiete" class="rectangulos"><p id="dia7" class="dia">Martes: 17:00hs</p></div><p class="fecha">Bob Esponja</p></a>
 
                                     </div>
                                     
                                     
                                     <div class="peliculasCuerpo">
-                                        <a class="cuadrado"href=""><div id="imagenOcho" class="rectangulos"></div><p class="fecha">13:00-14:00-17:00</p></a>
+                                        <a class="cuadrado"href="https://www.imdb.com/title/tt0268380/?ref_=ext_shr_lnk"> <div id="imagenOcho" class="rectangulos"><p id="dia8" class="dia">Martes: 17:00hs</p></div><p class="fecha">La era de hielo</p></a>
 
                                     </div>
 
@@ -149,7 +153,7 @@
                                     <br>
                                     <div  class="redesSociales">
                                         <img id="primerRed" src="img/facebook.png" alt="">
-                                        <p>@Cinefalso123</p>
+                                        <p id="paraProbar">@Cinefalso123</p>
                                     </div>
 
 
@@ -207,6 +211,7 @@
 
     </div>
 
+    <script src="js/java.js"></script>
      
 </body>
 </html>
