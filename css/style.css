@@ -100,9 +100,13 @@ align-items: center;
 justify-content: center;
 box-shadow: 10px 10px 10px black;
 /*    */
-transform: translateX(60deg);
-transform: translateY(-20deg);
+position: relative;
+right: 20vw;
+transform: rotateX(60deg) rotateY(-30);
 animation-name:animacion; 
+animation-duration: 4s;
+animation-iteration-count: 1;
+animation-fill-mode: forwards;
 }
 
 @media screen and (max-width:900px) {
@@ -374,12 +378,12 @@ height: 100%;
 
 @keyframes animacion{
 0%{
-
+transform: rotateX(60deg) rotateY(-30deg);
 }
 
 100%{
-    transform: translateX(0deg);
-    transform: translateY(0deg);
+    transform: translateX(100%);
+
 
 }
 
