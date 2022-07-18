@@ -40,7 +40,7 @@ body{
 #cuerpo{
     background-color: rgb(105,105,105);
     border: 3px solid black;
-    height: 150vh;
+    height: 200vh;
 }
 
 #pie{
@@ -351,22 +351,10 @@ height: 100%;
 #completo{
     overflow: hidden;
 }
-/*
-#proximosEstrenos{ 
-    
-   /* transform: rotate(-15deg);
-*/    
 
-  
-
-    /*
-    transform: skew(30deg, 20deg);
-    transform: scaleX(-1); */
-    
-/*}*/
 
 .dia{
-    
+    transition: 2s;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 16px;
     opacity: 70%;
@@ -388,3 +376,9 @@ transform: rotateX(60deg) rotateY(-30deg);
 }
 
 }
+
+
+.peliculasCuerpo:hover a div p{ 
+    transform: translate(0px, 0px);
+    transition: 2s;
+ };

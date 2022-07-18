@@ -1,0 +1,40 @@
+.contenedord{
+    border: 30px ridge brown;
+    height: 50vh;
+    width: 50vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+    box-shadow: 30px 30px 10px rgb(36, 35, 35);
+    overflow: hidden;
+    background-color: black;
+    
+}
+
+#slide{
+    border: none;
+    color: white;
+    background: none;
+    height: 10%;
+    width: 8%;
+    position: absolute;
+    
+    font-size: 35px;
+    padding-bottom: 7px;
+
+}
+#imagend{
+    
+    width:  100%;
+    height: 100%;
+    
+}
+#slide:hover{
+    border: 1px solid black;
+    border-radius: 100%;
+    background-color: rgb(36, 35, 35);
+    opacity:60% ;
+}
