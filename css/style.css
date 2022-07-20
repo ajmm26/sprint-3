@@ -295,7 +295,17 @@ height: 100%;
     display: flex;
     align-self: center;
     font-size: 90px;
- font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    animation-name: mover;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes mover {
+     0% { margin-top: 0px; }
+     10% { margin-top: -35px;  }
+     20% { margin-top: 50px; }
+     30% { margin-top: 0px;   }
 }
 
 #datos{

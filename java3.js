@@ -53,3 +53,5 @@ function cambiarImagen(nombreImagen){
 };
 */
 boton.addEventListener('click',cambiaFoto);
+
+
