@@ -1,8 +1,0 @@
-que el cartel de proximos estrenos haga una willi inclinado a unos 30 grados viniendo, que pare y se acomode bien 
-y se quede en su posicion actual.
-
-
-
-En las peliculas en vez de la nformacion de cuando da como hora y fecha tiene que aparecer el nombre de la imagen, 
-cuando me paro arriba de la imagen, aparte de lo que ya hace tendria que deslizarse la fecha de cuando da y las horas
-pero no tiene que tapar mucho la imagen, es decir que la imagen se vea aun (el profe recomendo usar el (opacity).
